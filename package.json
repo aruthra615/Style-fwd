@@ -1,0 +1,15 @@
+{
+  "name": "stylefwd-docker-starter",
+  "version": "1.0.0",
+  "description": "API containerized with Docker for Stylefwd.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
